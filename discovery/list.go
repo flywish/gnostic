@@ -19,7 +19,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/google/gnostic/compiler"
+	"github.com/flywish/gnostic/compiler"
 )
 
 // APIsListServiceURL is the URL for the Google APIs Discovery Service

@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//    http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -21,12 +21,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	discovery_v1 "github.com/google/gnostic/discovery"
-	metrics "github.com/google/gnostic/metrics"
-	vocabulary "github.com/google/gnostic/metrics/vocabulary"
-	openapiv2 "github.com/google/gnostic/openapiv2"
-	openapiv3 "github.com/google/gnostic/openapiv3"
-	plugins "github.com/google/gnostic/plugins"
+	discovery_v1 "github.com/flywish/gnostic/discovery"
+	metrics "github.com/flywish/gnostic/metrics"
+	vocabulary "github.com/flywish/gnostic/metrics/vocabulary"
+	openapiv2 "github.com/flywish/gnostic/openapiv2"
+	openapiv3 "github.com/flywish/gnostic/openapiv3"
+	plugins "github.com/flywish/gnostic/plugins"
 )
 
 // Record an error, then serialize and return a response.

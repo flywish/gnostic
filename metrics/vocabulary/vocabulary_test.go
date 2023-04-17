@@ -22,10 +22,10 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	discovery "github.com/google/gnostic/discovery"
-	metrics "github.com/google/gnostic/metrics"
-	openapiv2 "github.com/google/gnostic/openapiv2"
-	openapiv3 "github.com/google/gnostic/openapiv3"
+	discovery "github.com/flywish/gnostic/discovery"
+	metrics "github.com/flywish/gnostic/metrics"
+	openapiv2 "github.com/flywish/gnostic/openapiv2"
+	openapiv3 "github.com/flywish/gnostic/openapiv3"
 )
 
 func fillTestProtoStructure(words []string, count []int) []*metrics.WordCount {

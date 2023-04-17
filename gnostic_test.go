@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/gnostic/lib"
+	"github.com/flywish/gnostic/lib"
 )
 
 func isURL(path string) bool {
